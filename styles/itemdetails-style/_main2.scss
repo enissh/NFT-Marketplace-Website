@@ -1,0 +1,61 @@
+.main2{
+    background-image: url(backgroundimages/background4.jpg);
+}
+
+.main2__{
+    width: 80%;
+    margin: 0 auto;
+    h1{
+        color: $textcolor;
+        width: 60%;
+    }
+    button{
+        border: none;
+    border-radius: 50px;
+    padding:10px 15px;
+    height: 50px;
+    color:white;
+    font-size: 15px;
+    background: $primarybtn;
+    transition-duration: 0.4s;
+    margin-right: 10px;
+    float: right;
+    }
+    button:hover{
+        background-color: $textcolor;
+        color:$primarybtn;
+    }
+}
+.main2__flex{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+}
+.main2__hr{
+    width: 10%;
+    position: relative;
+    right:540px;
+}
+.info__flex{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    .info{
+        padding-left: 20px;
+        h1{
+            font-size: 17px;
+            font-weight: bold;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 15px;
+            color: $textcolor;
+        }
+    }
+    .info img{
+        width: 70px;
+        height: 70px;
+    }
+}
+

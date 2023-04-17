@@ -1,0 +1,80 @@
+main{
+    width: 100%;
+}
+.main__background{
+    background-image: url(backgroundimages/background4.jpg);
+    height: 450px;
+}
+.main__style{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    h2{
+        color: $textcolor;
+        padding-bottom: 15px;
+    }
+    h1{
+        color: $textcolor;
+        padding-bottom: 15px;
+        font-size: 45px;
+    }
+    p{
+        color: $textcolor;
+        span{
+            opacity: 0.6;
+        }
+    }
+}
+
+.slider__background{
+    background-image: url(backgroundimages/background3.jpg);
+}
+.main__slider{
+    margin: 0 auto;
+    width: 97%;
+    justify-content: space-around;
+}
+.carousel {
+    background:transparent;
+height: 400px;  
+position: relative;
+bottom:150px;
+}
+  .carousel-cell {
+    width: 33%;
+    height: 450px;
+    margin-right: 20px;
+    background-image: url('backgroundimages/photo2.png');
+    border-radius: 25px;
+    counter-increment: gallery-cell;
+    color: rgba(0,0,0,0);
+    cursor: pointer;
+    
+    &__photo1{
+        background-image: url('backgroundimages/photo1.webp');
+    }
+    &__photo2{
+        background-image: url('backgroundimages/photo4.png');
+    }
+    &__photo3{
+        background-image: url('backgroundimages/photo3.jpg');
+    }
+    &__photo4{
+        background-image: url('backgroundimages/photo5.png');
+    }
+    &__photo5{
+        background-image: url('backgroundimages/photo6.webp');
+    }
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 450px;
+    font-size: 80px;
+    color: none;
+  }
+  
+

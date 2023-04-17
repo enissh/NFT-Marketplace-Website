@@ -1,0 +1,15 @@
+$textcolor: white;
+$primarybtn: #9457eb;
+
+@import "./header";
+@import "./main";
+@import "./section";
+@import "./main2";
+@import "./footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}

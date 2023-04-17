@@ -1,0 +1,378 @@
+header {
+  width: 100%;
+}
+header nav {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 200px;
+  height: 60px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 10px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  bottom: 10px;
+}
+header a:hover {
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+}
+header li {
+  height: 15px;
+  padding: 15px 15px;
+  margin: 0 5px;
+  font-size: 17px;
+  border-radius: 25px;
+  position: relative;
+  top: 15px;
+}
+header li:hover {
+  background-color: #9457eb;
+}
+
+.li__active {
+  background-color: #9457eb;
+}
+.li__active a {
+  color: white;
+}
+
+main {
+  width: 100%;
+}
+
+.main__background {
+  background-image: url(backgroundimages/background4.jpg);
+  height: 450px;
+}
+
+.main__style {
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+.main__style h2 {
+  color: white;
+  padding-bottom: 15px;
+}
+.main__style h1 {
+  color: white;
+  padding-bottom: 15px;
+  font-size: 45px;
+}
+.main__style p {
+  color: white;
+}
+.main__style p span {
+  opacity: 0.6;
+}
+
+.slider__background {
+  background-image: url(backgroundimages/background3.jpg);
+}
+
+.main__slider {
+  margin: 0 auto;
+  width: 97%;
+  justify-content: space-around;
+}
+
+.carousel {
+  background: transparent;
+  height: 400px;
+  position: relative;
+  bottom: 150px;
+}
+
+.carousel-cell {
+  width: 33%;
+  height: 450px;
+  margin-right: 20px;
+  background-image: url("backgroundimages/photo2.png");
+  border-radius: 25px;
+  counter-increment: gallery-cell;
+  color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+.carousel-cell__photo1 {
+  background-image: url("backgroundimages/photo1.webp");
+}
+.carousel-cell__photo2 {
+  background-image: url("backgroundimages/photo4.png");
+}
+.carousel-cell__photo3 {
+  background-image: url("backgroundimages/photo3.jpg");
+}
+.carousel-cell__photo4 {
+  background-image: url("backgroundimages/photo5.png");
+}
+.carousel-cell__photo5 {
+  background-image: url("backgroundimages/photo6.webp");
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 450px;
+  font-size: 80px;
+  color: none;
+}
+
+section {
+  background-image: url(backgroundimages/background3.jpg);
+  padding-top: 50px;
+}
+
+.section__hr {
+  width: 10%;
+  border-bottom: 2px solid #9457eb;
+  position: relative;
+  left: 150px;
+}
+
+.section__style {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.section__style h1 {
+  font-size: 30px;
+  color: white;
+}
+.section__style h1 span {
+  color: #9457eb;
+}
+.section__style input {
+  padding: 10px 15px;
+  border-radius: 25px;
+  background: transparent;
+  margin-right: 17px;
+  border: 1px solid white;
+}
+.section__style input::-moz-placeholder {
+  color: white;
+}
+.section__style input:-ms-input-placeholder {
+  color: white;
+}
+.section__style input::placeholder {
+  color: white;
+}
+.section__style select {
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-right: 17px;
+  background: black;
+  color: white;
+}
+.section__style button {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  background-color: #9457eb;
+}
+.section__style button:hover {
+  background-color: white;
+  color: #9457eb;
+}
+
+.items {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card {
+  width: 50%;
+  background-color: #303030;
+  padding: 20px;
+  border: 1px solid #585858;
+  border-radius: 25px;
+  color: white;
+}
+.card hr {
+  border-bottom: 2px solid #585858;
+}
+.card__flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.card__photos img {
+  width: 260px;
+  border-radius: 25px;
+}
+.card__text {
+  display: flex;
+  justify-content: space-between;
+}
+.card__text--style1 {
+  padding-top: 20px;
+}
+.card__text--style2 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.btn1 {
+  border: none;
+  border-radius: 50px;
+  padding: 13px 20px;
+  color: white;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  background-color: #9457eb;
+}
+.btn1:hover {
+  background-color: white;
+  color: #9457eb;
+}
+.btn1__position1 {
+  position: relative;
+  left: 380px;
+  bottom: 20px;
+}
+.btn1__position2 {
+  position: relative;
+  left: 700px;
+  bottom: 20px;
+}
+.btn1__position3 {
+  position: relative;
+  left: 880px;
+  bottom: 20px;
+}
+.btn1__position4 {
+  position: relative;
+  bottom: 20px;
+  left: 220px;
+}
+.btn1__position5 {
+  position: relative;
+  bottom: 20px;
+  left: 400px;
+}
+.btn1__position6 {
+  position: relative;
+  bottom: 20px;
+  left: 585px;
+}
+.btn1__position7 {
+  position: relative;
+  bottom: 20px;
+  left: 750px;
+}
+
+.card2 {
+  width: 24%;
+  background-color: #303030;
+  padding: 20px;
+  border: 1px solid #585858;
+  margin-left: 20px;
+  color: white;
+  border-radius: 25px;
+}
+.card2 img {
+  width: 250px;
+  height: 219px;
+  border-radius: 25px;
+}
+.card2__text {
+  display: flex;
+  justify-content: space-between;
+}
+.card2__text--style1 {
+  padding-top: 13px;
+  padding-bottom: 15px;
+}
+.card2__text--style2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cards__position {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main2 {
+  background-image: url(backgroundimages/background4.jpg);
+}
+.main2__container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  color: white;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.main2 hr {
+  width: 10%;
+  position: relative;
+  left: 540px;
+  bottom: 15px;
+}
+.main2__flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.main2__text {
+  display: flex;
+}
+.main2__text h1 {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+.main2__text h2 {
+  font-size: 19px;
+}
+.main2__text p {
+  font-size: 16px;
+}
+.main2__text img {
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #9457eb;
+  text-align: center;
+  height: 80px;
+}
+footer p {
+  padding-top: 30px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}/*# sourceMappingURL=style.css.map */

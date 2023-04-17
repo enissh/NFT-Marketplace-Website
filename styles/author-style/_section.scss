@@ -1,0 +1,172 @@
+section {
+  background-image: url(backgroundimages/background3.jpg);
+}
+.section {
+  width: 80%;
+  margin: 0 auto;
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    button {
+      position: relative;
+      bottom: 23px;
+      border: none;
+      border-radius: 50px;
+      padding: 13px 20px;
+      color: white;
+      font-size: 17px;
+      transition-duration: 0.4s;
+      background-color: $primarybtn;
+      &:hover {
+        background-color: $textcolor;
+        color: $primarybtn;
+      }
+    }
+    &--btn1 {
+      position: relative;
+      right: 15px;
+    }
+    &--btn2 {
+      position: relative;
+      left: 15px;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    padding-top: 100px;
+    padding-bottom: 90px;
+    hr {
+      width: 10%;
+      border-bottom: 2px solid $primarybtn;
+    }
+    h1 {
+      padding-top: 30px;
+      color: $textcolor;
+      font-size: 29px;
+      span {
+        color: $primarybtn;
+      }
+    }
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+  }
+  &__photo {
+    display: flex;
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    &--text {
+      color: $textcolor;
+      h1 {
+        padding-top: 60px;
+        padding-left: 15px;
+        font-size: 20px;
+      }
+      p {
+        padding-left: 15px;
+        padding-top: 5px;
+        color: $primarybtn;
+      }
+    }
+  }
+  &__right {
+    padding: 15px;
+    background-color: #484848;
+    border: 1px solid #888888;
+    border-radius: 25px;
+    width: 500px;
+    &--button {
+      display: flex;
+      padding-top: 13px;
+      justify-content: space-between;
+      p {
+        color: #a8a8a8;
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 30px;
+      }
+      button {
+        border: none;
+        border-radius: 50px;
+        padding: 13px 50px;
+        color: white;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        background-color: $primarybtn;
+        margin-right: 20px;
+        &:hover {
+          background-color: $textcolor;
+          color: $primarybtn;
+        }
+      }
+    }
+    &--icons {
+      display: flex;
+      justify-content: space-around;
+      &--style {
+        i {
+          font-size: 25px;
+          color: $primarybtn;
+          padding-top: 8px;
+        }
+        p {
+          font-size: 17px;
+          color: $textcolor;
+          padding-top: 7px;
+          span {
+            font-size: 21px;
+            color: $primarybtn;
+          }
+        }
+      }
+    }
+  }
+}
+.card2 {
+  width: 23%;
+  background-color: #303030;
+  padding: 20px;
+  border: 1px solid #585858;
+  border-radius: 25px;
+  color: white;
+  h1 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 23px;
+  }
+  img {
+    width: 237px;
+    height: 237px;
+    border-radius: 25px;
+  }
+  hr {
+    border-bottom: 2px solid #585858;
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  &__text {
+    display: flex;
+    justify-content: space-between;
+    &--style1 {
+      padding-top: 20px;
+    }
+    &--style2 {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      font-size: 20px;
+    }
+  }
+}

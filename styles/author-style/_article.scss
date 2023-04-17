@@ -1,0 +1,56 @@
+article {
+  background-image: url(backgroundimages/background4.jpg);
+}
+.article {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 80%;
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    border: none;
+    border-radius: 50px;
+    padding: 13px 20px;
+    color: white;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    background-color: $primarybtn;
+    &:hover {
+      background-color: $textcolor;
+      color: $primarybtn;
+    }
+  }
+  &__hr {
+    width: 10%;
+    border-bottom: 2px solid $textcolor;
+  }
+  h1 {
+    padding-top: 25px;
+    color: $textcolor;
+  }
+}
+
+.info__flex {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  .info {
+    padding-left: 20px;
+    h1 {
+      font-size: 17px;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    p {
+      font-size: 15px;
+      color: $textcolor;
+    }
+  }
+  .info img {
+    width: 70px;
+    height: 70px;
+  }
+}

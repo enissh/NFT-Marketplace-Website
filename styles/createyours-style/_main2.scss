@@ -1,0 +1,118 @@
+.main2 {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+    padding-bottom: 80px;
+    hr {
+      width: 10%;
+      border: 2px solid $primarybtn;
+      position: relative;
+      left: 550px;
+    }
+    h1 {
+      padding-top: 25px;
+      color: $textcolor;
+      font-size: 27px;
+    }
+    span {
+      color: $primarybtn;
+    }
+  }
+}
+.main__content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  color: $textcolor;
+  padding-bottom: 100px;
+  &--titlestyle {
+    padding-left: 15px;
+    h2 {
+      padding-bottom: 5px;
+    }
+    p {
+      color: $primarybtn;
+    }
+  }
+  &--flex2 {
+    padding-top: 25px;
+    display: flex;
+    p {
+      color: #707070;
+      padding-right: 20px;
+      padding-top: 15px;
+    }
+    &--btn1 {
+      padding: 13px 20px;
+      border: 1px solid $primarybtn;
+      border-radius: 50px;
+      background-color: #484848;
+      margin-right: 20px;
+      color: $textcolor;
+      font-weight: bold;
+    }
+    &--btn2 {
+      border: none;
+      border-radius: 50px;
+      padding: 13px 20px;
+      color: white;
+      font-size: 17px;
+      transition-duration: 0.4s;
+      background-color: $primarybtn;
+      &:hover {
+        background-color: $textcolor;
+        color: $primarybtn;
+      }
+    }
+  }
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    &--1 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: stretch;
+      align-content: stretch;
+      p {
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: $primarybtn;
+        padding-bottom: 10px;
+      }
+      h3 {
+        color: #707070;
+      }
+    }
+  }
+  &--img {
+    width: 50%;
+    border-radius: 25px;
+  }
+  &--text {
+    width: 60%;
+    padding-left: 70px;
+    h2 {
+      font-size: 20px;
+    }
+    &--flex {
+      display: flex;
+    }
+    &--p {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  &---text {
+    padding-top: 20px;
+    display: flex;
+    &--img {
+      border-radius: 50%;
+    }    
+  }
+}

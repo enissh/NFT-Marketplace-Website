@@ -1,0 +1,75 @@
+main {
+  background-image: url(backgroundimages/background4.jpg);
+  height: 450px;
+  text-align: center;
+  color: $textcolor;
+  h2 {
+    padding-top: 170px;
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 43px;
+    padding-bottom: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+    span {
+      opacity: 0.6;
+    }
+  }
+  button {
+    border: none;
+    border-radius: 50px;
+    padding: 13px 20px;
+    color: white;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    background-color: $primarybtn;
+    &:hover {
+      background-color: $primarybtn;
+      color: $textcolor;
+    }
+  }
+}
+.main__btn1 {
+  border: 2px solid #ba55d3;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 17px;
+  background: none;
+  transition-duration: 0.4s;
+  margin-right: 10px;
+
+  &--btn1:hover {
+    background-color: $primarybtn;
+    color: white;
+    cursor: pointer;
+  }
+  &--btn2 {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    background-color: $primarybtn;
+  }
+  &--btn2:hover {
+    background-color: white;
+    color: $primarybtn;
+  }
+}
+.main__btn2 {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  background-color: $primarybtn;
+  &:hover {
+    background-color: white;
+    color: $primarybtn;
+  }
+}

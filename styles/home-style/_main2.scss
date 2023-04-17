@@ -1,0 +1,127 @@
+.main2{
+    width: 80%;
+    margin:0 auto;
+    padding-bottom: 60px;
+    &__hr{
+        width: 10%;
+        position: relative;
+        right:540px;
+        border-bottom: 2px solid $primarybtn;
+    }
+}
+.main2__background{
+    background-image:url(backgroundimg/background3.jpg);
+}
+.main2__nav{
+    display: flex;
+    justify-content: space-between;
+    h1{
+        color: $textcolor;
+        span{
+            color:$primarybtn;
+        }
+    }
+    &-style{
+        background-color:none;
+        padding:20px;
+        border-radius: 50px;
+       position: relative;
+       display:flex;
+       justify-content: space-between;
+       color:$textcolor;
+       }
+       .nav__list{
+        position: relative;
+        top:5px;
+        font-size: 16px;
+        display:inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        transition-duration: 0.4s;
+        border-radius: 50px;
+        margin: 7px;
+        &--active{
+            background-color: $primarybtn;
+            color: white;
+           }
+        }
+       .nav__list:hover{
+        background-color: $primarybtn;
+        color: white;
+       }
+}
+.item{
+    width: 45%;
+    border-radius: 25px;
+    background-color: #303030;
+    padding: 10px;
+    &__img{
+        height: 350px;
+        border-radius: 15%;
+        width: 70%;
+        padding-left: 10px;
+    }
+    &__flex1{
+        display: flex;
+    }
+    &__text{
+        padding: 15px;
+        width: 100%;
+        &--link{
+            color: $primarybtn;
+            border-bottom: 2px solid $primarybtn;
+            position: relative;
+            top:50px;
+            cursor: pointer;
+        }
+        &--span{
+            color: $textcolor;
+        }
+        &--p{
+            display: flex;
+            justify-content: space-between;
+            
+            h2{
+                color: $textcolor;
+                font-size: 19px;
+
+            }
+            span{
+                color: $textcolor;
+            }
+        }
+       hr{
+      border-bottom: 1px solid black;
+       }
+        h1{
+            font-size: 20px;
+            color: $textcolor;
+        }
+        &--pstyle{
+            color: $primarybtn;
+            position: relative;
+            top:45px;
+            right: 80px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        &--flex{
+            display: flex;
+            p{
+                position: relative;
+                top:23px;
+                left:10px;
+            }
+            img{
+                width: 60px;
+            }
+        }
+    }
+}
+.items__flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}

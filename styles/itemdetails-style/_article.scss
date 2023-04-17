@@ -1,0 +1,68 @@
+article{
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.article__container{
+    display: flex;
+    justify-content: space-between;
+    button{
+        border: none;
+        border-radius: 50px;
+        padding:13px 20px;
+        color:white;
+        font-size: 17px;
+        transition-duration: 0.4s;
+        background-color: $primarybtn;
+        font-weight: bold;
+    }
+    select{
+        background: none;
+        border: none;
+        color: white;
+    }
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    &__style{
+        display: flex;
+        border-radius: 25px;
+        background-color: #303030;
+     img{
+        border-radius: 25px 0 0 25px;
+     }
+
+    }
+    &__text{
+        color: $textcolor;
+        padding-left: 25px;
+        padding-right: 25px;
+        h1{
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        p{
+            color: $primarybtn;
+            padding-bottom: 15px;
+        }
+        h2{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 18px;
+            span{
+                color:$primarybtn;
+                font-size: 20px;
+            }
+        }
+        h3{
+            color: $primarybtn;
+            padding-bottom: 15px;
+            font-size: 15px;
+        }
+    }
+
+}

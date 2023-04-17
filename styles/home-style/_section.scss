@@ -1,0 +1,95 @@
+.container__background{
+    background-image:url(backgroundimg/background3.jpg);
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    h2{
+        color: white;
+        font-size: 30px;
+    }
+    span{
+        color:$primarybtn
+    }
+    .card{
+        border-radius: 25px;
+        border: 1px solid #585858;
+        width:13%;
+        background-color: #303030;
+    }
+   button{
+        border-radius: 50%;
+         padding: 10px 20px;
+         font-size: 20px;
+         background-color: white;
+         color: #9457eb;
+    }
+    button:hover{
+        background-color: $primarybtn;
+        color: $textcolor;
+    }
+}
+    p{
+        color: $textcolor;
+        padding-bottom: 15px;
+    }
+    img{
+        padding-top: 30px;
+        width: 45%;
+    }
+ 
+.card__flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+.hr__style{
+    width: 10%;
+    border-bottom:2px solid $primarybtn;
+    background-color: $primarybtn;
+}
+.card__btn{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content:space-evenly;
+align-items: stretch;
+align-content: stretch;
+&--position{
+    position: relative;
+    right: 50px;
+    bottom: 27px;
+}
+&--position2{
+    position: relative;
+    right:30px;
+    bottom:27px;
+}
+&--position3{
+    position: relative;
+    right: 10px;
+    bottom: 27px;
+}
+&--position4{
+    position: relative;
+    left:15px;
+    bottom:27px;
+}
+&--position5{
+    position: relative;
+    left:35px;
+    bottom:27px;
+}
+&--position6{
+    position: relative;
+    left:50px;
+    bottom: 27px;
+}
+}
+

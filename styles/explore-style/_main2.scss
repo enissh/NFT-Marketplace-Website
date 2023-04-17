@@ -1,0 +1,40 @@
+.main2{
+    background-image: url(backgroundimages/background4.jpg);
+    &__container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 80px;
+    text-align: center;
+    }
+    hr{
+        width: 10%;
+        position: relative;
+        left:540px;
+        bottom:15px;
+    }
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &__text{
+      display: flex;
+      h1{
+        font-size: 20px;
+        position: relative;
+        top:10px;
+        right:5px;
+      }
+      h2{
+        font-size: 19px;
+      }
+      p{
+        font-size: 16px;
+      }
+      img{
+        border-radius: 50%;
+      }
+    }
+}
